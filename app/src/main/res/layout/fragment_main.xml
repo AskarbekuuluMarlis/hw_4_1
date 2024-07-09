@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.fragments.MainFragment">
+
+    <LinearLayout
+        android:gravity="center"
+        android:id="@+id/registr_cantainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/et_name"
+            android:layout_marginTop="16dp"
+            android:autofillHints="password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="22dp" />
+
+        <EditText
+            android:id="@+id/et_email"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="22dp" />
+
+        <EditText
+            android:id="@+id/et_password"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberPassword"
+            android:layout_marginHorizontal="22dp" />
+
+
+        <Button
+            android:id="@+id/btn_send"
+            android:layout_marginTop="16dp"
+            android:text="@string/send"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="56dp"/>
+    </LinearLayout>
+</FrameLayout>

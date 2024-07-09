@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:icon="@android:drawable/ic_dialog_email"
+        android:id="@+id/mainFragment"
+        android:title="@string/main" />
+
+    <item
+        android:icon="@android:drawable/ic_lock_idle_alarm"
+        android:id="@+id/secondFragment"
+        android:title="@string/second" />
+
+    <item
+        android:icon="@android:drawable/ic_dialog_alert"
+        android:id="@+id/thirdFragment"
+        android:title="@string/third" />
+
+
+</menu>
